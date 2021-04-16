@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UnicodeEmoji'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Use official Unicode Emoji versions for your app.'
 
   s.description      = 'Use official Unicode Emoji versions for your app.

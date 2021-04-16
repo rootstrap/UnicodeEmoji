@@ -11,13 +11,17 @@
 
 ## What is it?
 
+Use official Unicode Emoji versions for your app.
+Detect the right Emoji version to use depending on the iOS version.
+Organizes the emojis in their respective categories.
+
 ## Installation
 
 #### 1. Cocoapods
 
 ```ruby
 
-pod 'UnicodeEmoji', '~> 1.0.0'
+pod 'UnicodeEmoji', '~> 1.0.1'
 
 ```
 
@@ -27,7 +31,7 @@ pod 'UnicodeEmoji', '~> 1.0.0'
 Add the following line to your `Cartfile` and follow the [installation instructions](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 ```
-github "rootstrap/UnicodeEmoji" ~> 1.0.0
+github "rootstrap/UnicodeEmoji" ~> 1.0.1
 ```
 
 #### 3. Swift Package Manager
@@ -41,11 +45,6 @@ That should be it. **UnicodeEmoji** should appear in the navigation panel as a d
 
 
 **Note:** It is always recommended to lock your external libraries to a specific version.
-
-## Usage
-
-Description on how to use your library.
-
 
 ## License
 
