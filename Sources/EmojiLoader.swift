@@ -17,6 +17,10 @@ public typealias EmojiListCompletion = (
 public enum UnicodeEmojiVersion {
 
     public static var current: String {
+        if #available(iOS 15.4, *) {
+            return "14.0"
+        }
+
         if #available(iOS 14.5, *) {
             return "13.1"
         }
@@ -48,7 +52,6 @@ public class EmojiLoader {
 
     private let unicodePublicFolder = "https://unicode.org/Public/emoji/"
     private let testFileName = "/emoji-test.txt"
-    private let unicodeVersionsForiOS = [4: 10.2, 5: 11.1, 11: 12.1, 12: 13]
 
     private(set) var emojiList: VersionedUnicodeEmojis {
         get {
