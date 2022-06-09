@@ -1,5 +1,0 @@
-use_frameworks!
-
-target 'UnicodeEmoji_Example' do
-  pod 'UnicodeEmoji', :path => '../'
-end

@@ -9,7 +9,7 @@
 #if canImport(UIKit)
 import UIKit
 
-public protocol StickerCellSelectionDelegate: class {
+public protocol StickerCellSelectionDelegate: AnyObject {
     func stickerCell(didBeginLongPress cell: StickerCollectionCell)
     func stickerCell(didEndLongPress cell: StickerCollectionCell, at touchUpPoint: CGPoint)
 }

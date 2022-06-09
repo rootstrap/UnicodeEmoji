@@ -21,7 +21,7 @@ Organizes the emojis in their respective categories.
 
 ```ruby
 
-pod 'UnicodeEmoji', '~> 1.0.1'
+pod 'UnicodeEmoji', '~> 1.1.0'
 
 ```
 
@@ -31,7 +31,7 @@ pod 'UnicodeEmoji', '~> 1.0.1'
 Add the following line to your `Cartfile` and follow the [installation instructions](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 ```
-github "rootstrap/UnicodeEmoji" ~> 1.0.1
+github "rootstrap/UnicodeEmoji" ~> 1.1.0
 ```
 
 #### 3. Swift Package Manager
