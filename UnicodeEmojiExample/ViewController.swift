@@ -113,6 +113,9 @@ extension ViewController: UICollectionViewDataSource {
 extension ViewController: StickerCellSelectionDelegate {
 
     func stickerCell(didBeginLongPress cell: StickerCollectionCell) {
+        guard cell.emoji.variants.count > 0 else {
+            return
+        }
         emojiVariantsView = EmojiVariantsView(
             emojiVariants: cell.emoji.variants,
             variantSize: cell.frame.size

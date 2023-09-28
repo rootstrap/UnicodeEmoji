@@ -11,8 +11,8 @@
 
 ## What is it?
 
-Use official Unicode Emoji versions for your app.
-Detect the right Emoji version to use depending on the iOS version.
+Makes official Unicode Emoji versions available for your app.
+Detects the right Emoji version to use depending on the iOS version.
 Organizes the emojis in their respective categories.
 
 ## Installation
@@ -21,7 +21,7 @@ Organizes the emojis in their respective categories.
 
 ```ruby
 
-pod 'UnicodeEmoji', '~> 1.1.0'
+pod 'UnicodeEmoji', '~> 1.2.0'
 
 ```
 
@@ -31,12 +31,12 @@ pod 'UnicodeEmoji', '~> 1.1.0'
 Add the following line to your `Cartfile` and follow the [installation instructions](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 ```
-github "rootstrap/UnicodeEmoji" ~> 1.1.0
+github "rootstrap/UnicodeEmoji" ~> 1.2.0
 ```
 
 #### 3. Swift Package Manager
 
-- In XCode 11, go to File -> Swift Packages -> Add Package Dependency.
+- In XCode 11+, go to File -> Swift Packages -> Add Package Dependency.
 - Enter the repo URL (https://github.com/rootstrap/UnicodeEmoji) and click Next.
 - Select the version rule desired (you can specify a version number, branch or commit) and click Next.
 - Finally, select the target where you want to use the framework.
