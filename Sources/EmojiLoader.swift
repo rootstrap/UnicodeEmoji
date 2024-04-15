@@ -17,8 +17,8 @@ public typealias EmojiListCompletion = (
 public enum UnicodeEmojiVersion {
 
     public static var current: String {
-//      Emoji 15.1 will be available later on iOS 17
-//        if #available(iOS 17.x, *) { return "15.1" }
+//        if #available(iOS 18.x, *) { return "16" }
+        if #available(iOS 17.4, *) { return "15.1" }
         if #available(iOS 16.4, *) { return "15.0" }
         if #available(iOS 15.4, *) { return "14.0" }
         if #available(iOS 14.5, *) { return "13.1" }
